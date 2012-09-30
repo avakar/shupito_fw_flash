@@ -1,0 +1,6 @@
+[submodule "libs/libyb"]
+	path = libs/libyb
+	url = git@github.com:avakar/libyb.git
+[submodule "libs/libusby"]
+	path = libs/libusby
+	url = git@github.com:avakar/libusby.git

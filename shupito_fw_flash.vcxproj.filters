@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="libs\libusby\src\libspy.c">
+      <Filter>libs\libusby</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\libusby\src\libusby.c">
+      <Filter>libs\libusby</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\libusby\src\os\libusb0_win32.c">
+      <Filter>libs\libusby\os</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\libusby\src\os\polly_win32.c">
+      <Filter>libs\libusby\os</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\libusby\src\os\spy_win32.c">
+      <Filter>libs\libusby\os</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\libyb\libyb\descriptor.cpp">
+      <Filter>libs\libyb</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="libs">
+      <UniqueIdentifier>{423c8800-4227-4eea-b5a4-599a8d5b96c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\libusby">
+      <UniqueIdentifier>{df3e0bbb-cd68-419b-8a48-c11ed36997e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\libyb">
+      <UniqueIdentifier>{a27f7bbc-3339-4a15-9c15-9d8de4609a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\libusby\os">
+      <UniqueIdentifier>{a7414cfc-0116-43dd-b8ca-215cd7fcc78d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libs\libusby\src\error.h">
+      <Filter>libs\libusby</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\libusby\src\libpolly.h">
+      <Filter>libs\libusby</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\libusby\src\libpolly.hpp">
+      <Filter>libs\libusby</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\libusby\src\libspy.h">
+      <Filter>libs\libusby</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\libusby\src\libspy.hpp">
+      <Filter>libs\libusby</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\libusby\src\libusb.h">
+      <Filter>libs\libusby</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\libusby\src\libusby.h">
+      <Filter>libs\libusby</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\libusby\src\libusby.hpp">
+      <Filter>libs\libusby</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\libusby\src\libusbyi.h">
+      <Filter>libs\libusby</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\libusby\src\libusbyi_fwd.h">
+      <Filter>libs\libusby</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\libusby\src\os\libpolly_win32.h">
+      <Filter>libs\libusby\os</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\libusby\src\os\libusb0_win32_intf.h">
+      <Filter>libs\libusby\os</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\libusby\src\os\os.h">
+      <Filter>libs\libusby\os</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\libyb\libyb\descriptor.hpp">
+      <Filter>libs\libyb</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\libyb\libyb\packet.hpp">
+      <Filter>libs\libyb</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\libyb\libyb\tunnel.hpp">
+      <Filter>libs\libyb</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\libyb\libyb\vector_ref.hpp">
+      <Filter>libs\libyb</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
